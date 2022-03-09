@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title> Saulo Candeira (SS) </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+    <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js')}}"></script>
+    <!-- Owl Carousel Assets -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- STYLE-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style-card.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/colors.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/StyleCard.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/StyleContador')}}">
+    
+    <!-- PWA -->
+
+    <script src="{{ url_for('static', filename='js/object.observe.polyfill.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/array.observe.polyfill.js')}}"></script>
+
+    <script src="{{ url_for('static', filename='js/scripts-pwa.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/push.js')}}"></script>
+
+    <link rel="manifest" href="manifest.json">
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBO8N0CfLu1VKLEOwVfRm5rPIOrg8A7788",
+        authDomain: "pwa-notes-ec59a.firebaseapp.com",
+        databaseURL: "https://pwa-notes-ec59a.firebaseio.com",
+        projectId: "pwa-notes-ec59a",
+        storageBucket: "",
+        messagingSenderId: "582721320268"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+</head>
+<body>
+
+    <!-- MAIN CONTAINER -->
+    <div class="menu-lateral">
+        <!-- LATERAL-->
+        <div class="lateral">
+
+            <!-- LOGO-->
+            <div class="perfil">
+                <a href="#">
+                    <img src="{{ url_for('static', filename='images/SauloCandeira.jpg')}}" alt='foto-perfil' class='sombra' >
+                </a>
+            </div>
+
+            <!-- MINI-MENU HAMBURGUER-->
+            <div class="mini-menu-button">
+                <span></span>
+            </div>
+
+            <!--Itens navegação-->
+            <ul class="itens-menu">  
+                <li><a href="#sobre" class="active"><i class="fa fa-user"></i> Projects </a></li>
+            </ul>
+        </div>
+    
+        <!-- CONTEUDO  MEIO DAS PÁGINAS-->
+        <div class="main-content">
+
+          <!-- PAGINA KANBAM-->
+            <section class="sobre section" id="sobre">
+              <div class="container">
+                <div class='StyleCard'>
+                  <!-- Card Slide -->
+                  <div class="slider owl-carousel">
+                      
+                      
+                    
+
+                    
+                    <div class="card">
+                      <div class="img"><img src="images/pitbull.png" alt=""></div>
+                      <div class="contente">
+
+
+                        <progress id="file" value="32" max="100" style="color:#000000"> 32% </progress>
+                        <div style="color:#000000; font-size: 20px; font-weight: normal" id="dday"></div>
+
+                        <div class="half-unit">
+                          
+                          <dtitle>Variação</dtitle>
+
+                        </div>
+                        <div class="title">IHK</div>
+                        <div class="sub-title">MANAGEMENT SYSTEM</div>
+                        <p>Tag: PROJECTS </p>
+                        <div class="btn">
+                          <a href="/manager-ihk"><button>Entrar</button></a>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    
+                    <div class="card">
+                      <div class="img"><img src="images/hk.jfif" alt=""></div>
+                      <div class="contente">
+
+                        <progress id="file" value="32" max="100" style="color:#000000"> 32% </progress>
+                        <div style="color:#000000; font-size: 20px; font-weight: normal" id="dday"></div>
+                        
+                        <div class="half-unit">
+                          
+                          <dtitle>Variação</dtitle>
+
+                        </div>
+
+                        <div class="title">CONCURSOS</div>
+                        <div class="sub-title">Govtech</div>
+                        <p>Tag: Republica.</p>
+                        <div class="btn">
+                          <a href="/manager-concursos"><button>Entrar</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          
+      
+        </div>
+      </div>
+
+    
+
+    <!--Add js-->
+    <script src="../static/js/scripts.js"></script>
+    <script src="{{ url_for('static', filename='js/scripts.js')}}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/jquery-1.9.1.min.js')}}"></script> -->
+    <script src="{{ url_for('static', filename='owl-carousel/owl.carousel.js')}}"></script>
+     
+
+</body>
+</html>
