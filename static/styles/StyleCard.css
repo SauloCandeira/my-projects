@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* CSS CARD */
+
+.StyleCard{
+  background: url("../images/gif2.gif") no-repeat;
+  display: grid;
+  min-height: 50vh;
+  width: 100%;
+  place-items: center;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+.slider{
+  max-width: 936px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .contente{
+  padding: 10px 20px;
+}
+.card .contente .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .contente .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .contente p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.btn{
+    padding: px 10px 10px 10px;
+}
+.card .contente .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .contente .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .contente .btn button:hover{
+  transform: scale(0.9);
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+    font-family: 'Poppinss', sans-serif;
+}
+.cabecalho{
+    width: 100%;
+    background: url("../images/gif2.gif") no-repeat;
+    padding: 3% 4%;
+    height: 20vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    border-radius: 80px;
+    cursor: pointer;
+    background: linear-gradient(to right, #020003,#0c5eaa);
+    background: url("../images/7RwF.gif")center center/80px  no-repeat; 
+    font-size:0;
+    border: #fff;
+}
+.btn-menu {
+    width: 80px;
+    height: 80px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 80px;
+    cursor: pointer;
+    background: linear-gradient(to right, #020003,#0c5eaa);
+    background: url("../images/XDZT.gif")center center/80px  no-repeat; 
+}
+
+.menu{
+    display: none;
+    width: 25%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.btn-close{
+    font-size: 3em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin-right: 5.5%;
+    margin-top: 3%;
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li{
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+    border: 1px solid;
+    position: absolute;
+}
+
+.banner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    position: absolute;
+}
+
+

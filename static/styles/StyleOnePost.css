@@ -1,0 +1,433 @@
+/*IMPORTANDO ICONES - Font Awesome Free Icon*/
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">');
+
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+
+}
+
+
+img{
+  width: 80%;
+  border-radius: .8rem;
+}
+
+.StyleOnePost{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 1.5rem; 
+}
+
+/*
+.StyleOnePost::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+}
+*/
+
+.owl-carousel{
+  width: 100%;
+  max-width: 98rem;
+  padding: 2.5rem;
+  background-color: rgb(169, 169, 169);
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  display: flex; 
+  align-items: center;
+  border-radius: .8rem;
+  / *position: relative;*/
+
+} 
+
+/*
+.owl-carousel::before{
+  /* position: absolute; */
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background-image:url('../images/sep-half.png'); */
+  background-size: cover;
+  background-attachment: fixed;
+}
+*/
+
+
+.owl-carousel .blog-post{
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 1.4rem 8rem rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+}
+
+.owl-carousel .blog-post-img{
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 30rem;
+  transform: translateX(-8rem);
+  position: relative;
+  border-radius: .8rem;
+
+}
+.owl-carousel .blog-post-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+}
+.owl-carousel .blog-post-img::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(79,172,254,.8),rgba(79,172,254,.8));
+  box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+  border-radius: .8rem;
+}
+
+.owl-carousel .blog-post-date span{
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: .5rem 0;
+}
+
+.owl-carousel .blog-post-title{
+  font-size: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+  color: #4facfe;
+}
+
+.owl-carousel .blog-post-text{
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+  margin: 1rem 0 2rem;
+  font-size: 1.2rem;
+  
+
+}
+
+
+.owl-carousel .blog-post-cta{
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  border-radius: .8rem;
+  text-decoration: none;
+}
+
+.owl-carousel .blog-post-cta:hover{
+  background-image: linear-gradient(to right, #00f2fe 0%, #4faccfe 100%);
+}
+
+
+.owl-carousel .blog-post .redes-sociais{
+  margin-top: 1px;
+  padding: 0rem 3rem;
+}
+
+.owl-carousel .blog-post .redes-sociais a{
+  height: 45px;
+  width: 45px;
+  background-color: rgb(26, 26, 26, 26);
+  display: inline-block;
+  text-align: center;
+  line-height: 45px;
+  color: #00f2fe;
+  margin: 0 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+
+
+
+/*
+.owl-carousel{
+
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: rgb(230, 255, 1);
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+
+
+  /*
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: rgb(230, 255, 1);
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  align-items: center;
+  border-radius: .8rem;
+  */
+  /*
+} 
+*/
+
+
+/* ---- ONE CARD --- */
+/*
+.owl-carousel .card{
+
+  
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: rgb(255, 7, 7);
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+
+  /*
+  width: 100%;
+  max-width: 100%;
+  padding: 60px 0;
+  background-color: rgb(255, 7, 7);
+  */
+  /*
+}
+*/
+
+
+/*
+.slider .card .img{
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 30rem;
+  transform: translateX(-8rem);
+  position: relative;
+}
+
+
+
+.slider .card .img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+}
+
+*/
+
+/* ---------------- CARD POST ------ */
+/*
+.slider .card .contente{
+	padding: 10px 20px;
+}
+.card .contente .title{
+	font-size: 25px;
+	font-weight: 600;
+}
+.card .contente .sub-title{
+	font-size: 20px;
+	font-weight: 600;
+	color: #e74c3c;
+	line-height: 20px;
+}
+.card .contente p{
+	text-align: justify;
+	margin: 10px 0;
+}
+.btn{
+	padding: px 10px 10px 10px;
+}
+.card .contente .btn{
+	display: block;
+	text-align: left;
+	margin: 10px 0;
+}
+.card .contente .btn button{
+	background: #e74c3c;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	padding: 5px 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.card .contente .btn button:hover{
+	transform: scale(0.9);
+}
+  
+
+/* ---------------- CARD POST ------ */
+
+ 
+/*
+.StyleBlogPost{
+
+  background: url("images/gif2.gif") no-repeat;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  /* Estilo Original
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 0 1.5rem;
+  */
+/*
+}
+*/
+/*
+.owl-carousel .blog-post{
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: #fff;
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+}
+*/
+/*
+.blog-post-img{
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 30rem;
+  transform: translateX(-8rem);
+  position: relative;
+}
+.blog-post-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+}
+.blog-post-img::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(79,172,254,.8),rgba(79,172,254,.8));
+  box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+  border-radius: .8rem;
+}
+
+.blog-post-date span{
+  display: block;
+  color: rgba(0,0,0,.5);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: .5rem 0;
+}
+
+.blog-post-title{
+  font-size: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+  color: #4facfe;
+}
+
+.blog-post-text{
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: rgba(0,0,0,.7);
+
+}
+
+.blog-post-cta{
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  border-radius: .8rem;
+  text-decoration: none;
+}
+
+.blog-post-cta:hover{
+  background-image: linear-gradient(to right, #00f2fe 0%, #4faccfe 100%);
+}
+
+
+@media screen and (max-width: 1068px) {
+  .blog-post{
+    max-width: 80rem;
+  }
+
+  .blog-post-img{
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .blog-post{
+    max-width: 70rem;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .blog-post{
+   padding: 2.5rem;
+   flex-direction: column;
+  }
+
+  .blog-post-img{
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -8rem);
+  }
+}
