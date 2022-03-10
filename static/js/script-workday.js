@@ -1,84 +1,84 @@
 // variable to store and loop through scheduler
 var myDay = [
     {
-        id: "9",
+        id: "1",
         hour: "06",
         time: "06",
         meridiem: "am",
         reminder: "WORK"
     },
     {
-        id: "10",
+        id: "2",
         hour: "07",
         time: "07",
         meridiem: "am",
         reminder: "WORK"
     },
     {
-        id: "11",
+        id: "3",
         hour: "08",
         time: "08",
         meridiem: "am",
-        reminder: "Work"
+        reminder: "WORK"
     },
     {
-        id: "12",
+        id: "4",
         hour: "09",
         time: "09",
         meridiem: "am",
         reminder: "WORK"
     },
     {
-        id: "1",
+        id: "5",
         hour: "10",
         time: "10",
         meridiem: "am",
         reminder: "WORK"
     },
     {
-        id: "2",
+        id: "6",
         hour: "11",
         time: "11",
         meridiem: "am",
         reminder: "WORK"
     },
     {
-        id: "3",
+        id: "7",
         hour: "12",
         time: "12",
         meridiem: "pm",
         reminder: "WORK"
     },
     {
-        id: "4",
+        id: "8",
         hour: "01",
         time: "13",
         meridiem: "pm",
         reminder: "WORK"
     },
     {
-        id: "5",
+        id: "9",
         hour: "02",
         time: "14",
         meridiem: "pm",
-        reminder: "LERAM"
+        reminder: "LEARN"
     },
     {
-        id: "6",
+        id: "10",
         hour: "03",
         time: "15",
         meridiem: "pm",
         reminder: "LEARN"
     },
     {
-        id: "7",
+        id: "11",
         hour: "04",
         time: "16",
         meridiem: "pm",
         reminder: "TRAIN"
     },
     {
-        id: "8",
+        id: "12",
         hour: "05",
         time: "17",
         meridiem: "pm",
