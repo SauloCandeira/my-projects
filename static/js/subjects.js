@@ -9,7 +9,7 @@ subjectList = [
 			"start":14, 
 			"end":15
 		},
-		"day": [5],
+		"day": [3,5],
 	},
 	// ESTUDAR TECNOLOGIA
 	{
@@ -31,7 +31,7 @@ subjectList = [
 			"start":14, 
 			"end":15
 		},
-		"day": [1,3],
+		"day": [1],
 	},
 	
 	// TRABALHAR DEDICADO
