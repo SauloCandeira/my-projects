@@ -75,14 +75,14 @@ var myDay = [
         hour: "04",
         time: "16",
         meridiem: "pm",
-        reminder: "TRAIN"
+        reminder: "PROGRAM"
     },
     {
         id: "12",
         hour: "05",
         time: "17",
         meridiem: "pm",
-        reminder: "TRAIN"
+        reminder: "PROGRAM"
     },
 
 
@@ -127,14 +127,14 @@ var myDay = [
         hour: "11",
         time: "23",
         meridiem: "pm",
-        reminder: "PROGRAM"
+        reminder: "TRAIN"
     },
     {
         id: "19",
         hour: "12",
         time: "24",
         meridiem: "pm",
-        reminder: "PROGRAM"
+        reminder: "TRAIN"
     },
     
 ]
